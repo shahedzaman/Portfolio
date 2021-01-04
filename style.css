@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* div{
+    border: 1px solid red;
+} */
+
+h1{
+    font-size: 50px;
+   
+}
+.h1-name{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    height: 70vh;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+  
+    
+}
+.half-width img{
+    width: 100%;
+    
+    
+}
+.half-width .img{
+    margin-bottom: 50px;
+}
+.top-banner{
+    background-image: url("Image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 70vh;
+   
+}
+a{
+    text-decoration: none;
+  
+    background-image: linear-gradient(lightSalmon, tomato) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: seashell;
+    font-weight: 700;
+}
+.dream{
+    background-image: url("Image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url("Image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.table-shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    border-radius: 5px;
+}
+#table-1{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#table-2{
+    border-left: 7px solid ;
+    border-image: linear-gradient( 180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+.footer-p{
+    text-align: center;
+}
